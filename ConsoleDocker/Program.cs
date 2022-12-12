@@ -7,7 +7,7 @@
         {
             Console.WriteLine("Hello, World! "+i);
             i++;
-            Thread.Sleep(100)
+            Thread.Sleep(100);
         }
         
     }
