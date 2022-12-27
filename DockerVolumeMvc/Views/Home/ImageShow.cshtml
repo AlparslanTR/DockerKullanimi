@@ -1,0 +1,11 @@
+﻿@model IEnumerable<string>
+@{
+    ViewData["Title"] = "ImageShow";
+}
+
+<h1>Resimleri Görüntüle</h1>
+@foreach (var item in Model)
+{
+    <img src="/Images/@item" style="width:100px; height:100px; float:left; border:1px solid black;" />
+    <h3>@item</h3>
+}
